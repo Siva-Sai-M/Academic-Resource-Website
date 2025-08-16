@@ -41,7 +41,7 @@ This is a simple and responsive academic resource website that allows students t
 
 ## 👩‍💻 Author
 
-**Sathwika Bandaru**  
+**Siva Sai Melam**  
 Cybersecurity | IoT | Blockchain Student  
 SRKR Engineering College
 
