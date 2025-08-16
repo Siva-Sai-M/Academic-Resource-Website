@@ -9,6 +9,16 @@
     height:400px;
     width:450px;
 }
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoutbtn{
+    cursor: pointer;
+}
+
 .size{
     height:400px;
     width:450px;

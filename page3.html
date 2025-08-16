@@ -20,6 +20,9 @@
             <a class="nav-link  mr-5 active" href="#sectionHome">Home <span class="sr-only">(current)</span></a>
             <a class="nav-link mr-5" href="#sectionAboutus">About Us</a>
             <a class="nav-link mr-5" href="academics.html">Academics</a>
+            <div class="logoutbtn">
+            <buttonclass="button1 ml-3" id="logoutBtn" onclick="logout()">Logout</buttonclass=>
+            </div>
           </div>
         </div>
     </nav>
@@ -89,6 +92,12 @@
           
 
   <script src="page3.js"></script>
+  <script>
+    // Hide logout button if not logged in
+    if (localStorage.getItem('loggedIn') !== 'true') {
+      window.location.href = 'index.html';
+    }
+  </script>
 </body>
 
 </html>

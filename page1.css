@@ -21,12 +21,14 @@ body {
     margin:0;
 }
 .card-container {
-    background-color: white;
-    height: 85%;
-    width: 30%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    text-align:center;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    padding: 40px 32px 32px 32px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 60px auto 0 auto;
 }
 .p1head{
     text-align:center;
